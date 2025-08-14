@@ -8,7 +8,16 @@
   ],
   "scripts": {
     "build": "turbo run build",
+    "build:all": "pnpm -w -s run build",
+    "build:api": "pnpm -w --filter api... run build",
+    "build:backend": "pnpm -w --filter backend... run build",
+    "build:frontend": "pnpm -w --filter frontend... run build",
+    "build:website": "pnpm -w --filter website... run build",
     "dev": "turbo run dev",
+    "start:api": "pnpm --filter api run start",
+    "start:backend": "pnpm --filter backend run start",
+    "start:frontend": "pnpm --filter frontend run start",
+    "start:website": "pnpm --filter website run start",
     "lint": "turbo run lint",
     "test": "turbo run test",
     "bootstrap": "pnpm install && pnpm -w -s build"

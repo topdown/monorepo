@@ -1,3 +1,9 @@
+# pnpm workspace globs. Apps in this template:
+#  - apps/api
+#  - apps/backend
+#  - apps/frontend
+#  - apps/website
 packages:
   - 'packages/*'
   - 'apps/*'
+  - 'tools/*'

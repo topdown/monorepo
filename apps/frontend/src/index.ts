@@ -1,3 +1,3 @@
 import { hello } from '@monorepo/utils'
 
-console.log(hello('web'))
+console.log(hello('frontend'))

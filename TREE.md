@@ -9,10 +9,21 @@
 │   │   ├── package.json
 │   │   ├── src
 │   │   └── tsconfig.json
-│   └── web
+│   ├── backend
+│   │   ├── package.json
+│   │   ├── src
+│   │   └── tsconfig.json
+│   ├── frontend
+│   │   ├── package.json
+│   │   ├── src
+│   │   └── tsconfig.json
+│   └── website
 │       ├── package.json
 │       ├── src
 │       └── tsconfig.json
+├── docs
+│   ├── README.md
+│   └── architecture.md
 ├── package.json
 ├── packages
 │   └── utils

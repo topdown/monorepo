@@ -15,8 +15,13 @@ pnpm -w run build
 Structure
 
 - `packages/*` - shared packages (libraries)
-- `apps/*` - runnable applications
+- `apps/*` - runnable applications. This template includes:
+	- `apps/api` — backend API service
+	- `apps/backend` — internal backend service
+	- `apps/frontend` — frontend app (client)
+	- `apps/website` — public website
 - `tools/*` - developer tooling scripts
+- `docs/*` - repository-level documentation and architecture notes
 
 How to use this repo as a template
 
