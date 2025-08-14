@@ -1,6 +1,14 @@
 composer.phar
 /vendor/
+node_modules/
+package-lock.json
+composer-lock.json
 
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+.log
+npm-debug.log
+yarn-error.log
+
+.DS_Store
+.idea/
+.vscode/
+.env
